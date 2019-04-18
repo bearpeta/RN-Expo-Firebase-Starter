@@ -1,0 +1,38 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+#Android
+android/.gradle
+android/.idea
+android/app/build
+android/local.properties
+android/.expo
+android/**/DetachBuildConstants.java
+*.iml
+.DS_Store
+
+# Xcode
+**/*.pbxuser
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+**/*.xcuserstate
+**/*.xcworkspace/
+**/project.xcworkspace/
+**/xcuserdata/
+
+ios/walksafe/Supporting/EXBuildConstants.json
+ios/walksafe/Supporting/EXBuildConstants.plist
+ios/walksafe/Supporting/EXBuildConstants.plist.bak
+
+# Podfiles
+**/Pods/
+
+#Google Service file
+ios/GoogleService-Info.plist
+android/app/google-services.json
