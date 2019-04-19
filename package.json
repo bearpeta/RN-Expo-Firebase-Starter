@@ -16,10 +16,9 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
-    "filequeue": "^0.5.0",
     "fs-extra": "^7.0.1",
     "graceful-fs": "^4.1.15",
-    "replace-in-file": "^3.4.4"
+    "replace-in-file": "git+https://github.com/bearpeta/replace-in-file.git"
   },
   "private": true
 }
